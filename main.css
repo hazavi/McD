@@ -1,0 +1,134 @@
+.menu-card {
+    padding: 10px;
+    margin: 10px;
+    width: 220px;
+    height: 260px;
+    text-align: center;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+
+  .menu-card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .menu-card p {
+    margin: 8px 0;
+  }
+
+  .menu-card button {
+    background-color: #ffc836;
+    color: #bd0017;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  .menu-card button:hover {
+    background-color: #bd0017;
+    color: #ffc836;
+  }
+
+  .header {
+    background-color: #bd0017;
+    position: relative;
+  }
+
+  #title {
+    text-align: center;
+    color: #ffc836;
+  }
+
+  #order-number {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    color: #264f36;
+    font-weight: bold;
+    background-color: #dadada;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+  }
+
+  #cart-icon {
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    cursor: pointer;
+  }
+
+  #cart-popup {
+    display: none;
+    position: fixed;
+    top: 70px;
+    right: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 80vh;
+    overflow-y: auto;
+    border-radius: 8px;
+}
+
+#cart-popup h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #bd0017;
+}
+
+#cart-list-popup {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cart-list-popup li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+#cart-total-popup {
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+#cart-popup button {
+    margin-top: 10px;
+    padding: 3px 11px;
+    background-color: #bd0017;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#cart-popup button:hover {
+    background-color: #fff;
+    color: #bd0017;
+}
+
+    .nav-link {
+        margin: 5px;
+        color: #ffffff; 
+        font-weight: bold;
+        text-decoration: none;
+    
+    }
+
+    .nav-link:hover {
+        color: #ffc836;    }
+
+        
